@@ -44,7 +44,8 @@
 										"identity",
 										"accounts"
 									]
-								}
+								},
+								"description": "This endpoint registers a new user account. Provide the following fields in the JSON request body: firstName, lastName, email, password, and confirmPassword. All fields are required to create a new account."
 							},
 							"response": []
 						},
@@ -75,7 +76,8 @@
 										"Accounts",
 										"Login"
 									]
-								}
+								},
+								"description": "Authenticates a user by verifying the provided email and password.\n\nRequest Body:\n\n- email (string): The user's email address.\n    \n- password (string): The user's password.\n    \n\nA successful response returns success message, if applicable."
 							},
 							"response": []
 						},
@@ -109,7 +111,8 @@
 										"Accounts",
 										"ForgetPassword"
 									]
-								}
+								},
+								"description": "This endpoint initiates the password reset process for a user account. Provide the user's email address as input (either as a query parameter or in the request body). If the email exists in the system, success message. The response indicates whether the reset process was successfully initiated or if there was an error (such as an unrecognized email)."
 							},
 							"response": []
 						},
@@ -140,7 +143,8 @@
 										"Accounts",
 										"ResetPassword"
 									]
-								}
+								},
+								"description": "This endpoint resets a user's password. Provide the userId, the new password, and a confirmation of the new password in the request body. Use this endpoint when a user needs to set a new password, typically after a password reset request."
 							},
 							"response": []
 						},
@@ -166,7 +170,8 @@
 										"Accounts",
 										"GustLogin"
 									]
-								}
+								},
+								"description": "This endpoint allows a guest user to log in or create a temporary account. It is typically used to provide limited access to users without requiring full registration."
 							},
 							"response": []
 						}
