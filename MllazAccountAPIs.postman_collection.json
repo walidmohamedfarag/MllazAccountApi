@@ -1,0 +1,184 @@
+{
+	"info": {
+		"_postman_id": "85db2621-469d-4261-aa0b-28b1202b6a87",
+		"name": "MllazAccountAPIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50157763",
+		"_collection_link": "https://walid492003-4237592.postman.co/workspace/Walid-Mohamed's-Workspace~953d4ac2-d4f1-4ba0-85f6-79d56c6f22fc/collection/50157763-85db2621-469d-4261-aa0b-28b1202b6a87?action=share&source=collection_link&creator=50157763"
+	},
+	"item": [
+		{
+			"name": "Identity",
+			"item": [
+				{
+					"name": "Account",
+					"item": [
+						{
+							"name": "Register",
+							"protocolProfileBehavior": {
+								"strictSSL": false,
+								"protocolVersion": "http1",
+								"followOriginalHttpMethod": false
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"firstName\": \"Walid\",\r\n  \"lastName\": \"Mohamed\",\r\n  \"email\": \"walid492003@gmail.com\",\r\n  \"password\": \"Walid123456\",\r\n  \"confirmPassword\": \"Walid123456\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7131/api/identity/accounts",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7131",
+									"path": [
+										"api",
+										"identity",
+										"accounts"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Login",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"email\": \"walid492003@gmail.com\",\r\n  \"password\": \"Walid123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7131/api/Identity/Accounts/Login",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7131",
+									"path": [
+										"api",
+										"Identity",
+										"Accounts",
+										"Login"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ForgetPassword",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"walid492003@gmail.com\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7131/api/Identity/Accounts/ForgetPassword?email=walid492003@gmail.com",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7131",
+									"path": [
+										"api",
+										"Identity",
+										"Accounts",
+										"ForgetPassword"
+									],
+									"query": [
+										{
+											"key": "email",
+											"value": "walid492003@gmail.com"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Reset Password",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"userId\": \"ec0ebfe0-fd6d-4e4c-9001-d3ab6b4d3292\",\r\n  \"password\": \"Walid123\",\r\n  \"confirmPassword\": \"Walid123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7131/api/Identity/Accounts/ResetPassword",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7131",
+									"path": [
+										"api",
+										"Identity",
+										"Accounts",
+										"ResetPassword"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Gust Login",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"email\": \"walid492003@gmail.com\",\r\n  \"password\": \"Walid123456\"\r\n}"
+								},
+								"url": {
+									"raw": "https://localhost:7131/api/Identity/Accounts/GustLogin",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7131",
+									"path": [
+										"api",
+										"Identity",
+										"Accounts",
+										"GustLogin"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
