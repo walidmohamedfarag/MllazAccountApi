@@ -1,7 +1,7 @@
 
 
 1. Register
-URL: https://localhost:7131/api/Identity/Accounts
+URL: http://mllazaccount.runasp.net/api/Identity/Accounts
 Method: POST
 Endpoint: /accounts
 Description: create new account
@@ -20,7 +20,7 @@ Response:
 _____________________________________________________
 
 2. Login 
-URL: https://localhost:7131/api/Identity/Accounts/Login
+URL: http://mllazaccount.runasp.net/api/Identity/Accounts/Login
 Method: POST
 Endpoint: /Accounts/Login
 Description: login by email and password
@@ -36,7 +36,7 @@ Response:
 _____________________________________________________
 
 3. ForgetPassword
-URL: https://localhost:7131/api/Identity/Accounts/ForgetPassword
+URL: http://mllazaccount.runasp.net/api/Identity/Accounts/ForgetPassword
 Method: GET
 Endpoint: /Accounts/ForgetPassword
 Description: order to reset password by email
@@ -52,7 +52,7 @@ ________________________________________________
 
 
 4. Reset Password
-URL: https://localhost:7131/api/Identity/Accounts/ResetPassword
+URL: http://mllazaccount.runasp.net/api/Identity/Accounts/ResetPassword
 Method: POST
 Endpoint: /Accounts/ResetPassword
 Description: reset password by user id and password confirmpassword
@@ -70,7 +70,7 @@ ________________________________________________
 
 
 5. Gust Login
-URL: https://localhost:7131/api/Identity/Accounts/GustLogin
+URL: http://mllazaccount.runasp.net/api/Identity/Accounts/GustLogin
 Method: POST
 Endpoint: /Accounts/GustLogin
 Description: login as a gust
