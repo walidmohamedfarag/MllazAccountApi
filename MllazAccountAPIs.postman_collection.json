@@ -25,7 +25,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"firstName\": \"Walid\",\r\n  \"lastName\": \"Mohamed\",\r\n  \"email\": \"walid492003@gmail.com\",\r\n  \"password\": \"Walid123456\",\r\n  \"confirmPassword\": \"Walid123456\"\r\n}",
+									"raw": "{\r\n  \"firstName\": \"\",\r\n  \"lastName\": \"\",\r\n  \"email\": \"\",\r\n  \"password\": \"\",\r\n  \"confirmPassword\": \"\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -55,7 +55,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"email\": \"walid492003@gmail.com\",\r\n  \"password\": \"Walid123\"\r\n}",
+									"raw": "{\r\n  \"email\": \"\",\r\n  \"password\": \"\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -89,7 +89,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"email\": \"walid492003@gmail.com\"\r\n}",
+									"raw": "{\r\n    \"email\": \"\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -97,7 +97,7 @@
 									}
 								},
 								"url": {
-									"raw": "https://localhost:7131/api/Identity/Accounts/ForgetPassword?email=walid492003@gmail.com",
+									"raw": "https://localhost:7131/api/Identity/Accounts/ForgetPassword",
 									"protocol": "https",
 									"host": [
 										"localhost"
@@ -108,12 +108,6 @@
 										"Identity",
 										"Accounts",
 										"ForgetPassword"
-									],
-									"query": [
-										{
-											"key": "email",
-											"value": "walid492003@gmail.com"
-										}
 									]
 								}
 							},
@@ -126,7 +120,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"userId\": \"ec0ebfe0-fd6d-4e4c-9001-d3ab6b4d3292\",\r\n  \"password\": \"Walid123\",\r\n  \"confirmPassword\": \"Walid123\"\r\n}",
+									"raw": "{\r\n  \"userId\": \"\",\r\n  \"password\": \"\",\r\n  \"confirmPassword\": \"\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -157,7 +151,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"email\": \"walid492003@gmail.com\",\r\n  \"password\": \"Walid123456\"\r\n}"
+									"raw": ""
 								},
 								"url": {
 									"raw": "https://localhost:7131/api/Identity/Accounts/GustLogin",
