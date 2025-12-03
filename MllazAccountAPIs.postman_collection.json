@@ -33,12 +33,13 @@
 									}
 								},
 								"url": {
-									"raw": "https://localhost:7131/api/identity/accounts",
-									"protocol": "https",
+									"raw": "http://mllazaccount.runasp.net/api/identity/accounts",
+									"protocol": "http",
 									"host": [
-										"localhost"
+										"mllazaccount",
+										"runasp",
+										"net"
 									],
-									"port": "7131",
 									"path": [
 										"api",
 										"identity",
@@ -56,7 +57,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"email\": \"\",\r\n  \"password\": \"\"\r\n}",
+									"raw": "{\r\n  \"email\": \"walid@gmail.com\",\r\n  \"password\": \"Walid123456\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -64,12 +65,13 @@
 									}
 								},
 								"url": {
-									"raw": "https://localhost:7131/api/Identity/Accounts/Login",
-									"protocol": "https",
+									"raw": "http://mllazaccount.runasp.net/api/Identity/Accounts/Login",
+									"protocol": "http",
 									"host": [
-										"localhost"
+										"mllazaccount",
+										"runasp",
+										"net"
 									],
-									"port": "7131",
 									"path": [
 										"api",
 										"Identity",
@@ -99,12 +101,13 @@
 									}
 								},
 								"url": {
-									"raw": "https://localhost:7131/api/Identity/Accounts/ForgetPassword",
-									"protocol": "https",
+									"raw": "http://mllazaccount.runasp.net/api/Identity/Accounts/ForgetPassword",
+									"protocol": "http",
 									"host": [
-										"localhost"
+										"mllazaccount",
+										"runasp",
+										"net"
 									],
-									"port": "7131",
 									"path": [
 										"api",
 										"Identity",
@@ -131,12 +134,13 @@
 									}
 								},
 								"url": {
-									"raw": "https://localhost:7131/api/Identity/Accounts/ResetPassword",
-									"protocol": "https",
+									"raw": "http://mllazaccount.runasp.net/api/Identity/Accounts/ResetPassword",
+									"protocol": "http",
 									"host": [
-										"localhost"
+										"mllazaccount",
+										"runasp",
+										"net"
 									],
-									"port": "7131",
 									"path": [
 										"api",
 										"Identity",
@@ -158,12 +162,13 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "https://localhost:7131/api/Identity/Accounts/GustLogin",
-									"protocol": "https",
+									"raw": "http://mllazaccount.runasp.net/api/Identity/Accounts/GustLogin",
+									"protocol": "http",
 									"host": [
-										"localhost"
+										"mllazaccount",
+										"runasp",
+										"net"
 									],
-									"port": "7131",
 									"path": [
 										"api",
 										"Identity",
