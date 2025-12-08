@@ -25,7 +25,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"fullName\": \"Walid Mohamed  \",\r\n  \"email\": \"walid492003@gmail.com\",\r\n  \"phoneNumber\": \"01202555654\",\r\n  \"password\": \"Wa123456\",\r\n  \"confirmPassword\": \"Wa123456\"\r\n}",
+									"raw": "{\r\n  \"fullName\": \"\",\r\n  \"email\": \"\",\r\n  \"phoneNumber\": \"\",\r\n  \"password\": \"\",\r\n  \"confirmPassword\": \"\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -63,7 +63,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"email\": \"walid492003@gmail.com\",\r\n  \"password\": \"Wa123456\"\r\n}",
+									"raw": "{\r\n  \"email\": \"\",\r\n  \"password\": \"\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
