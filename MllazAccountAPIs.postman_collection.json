@@ -25,7 +25,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"firstName\": \"\",\r\n  \"lastName\": \"\",\r\n  \"email\": \"\",\r\n  \"password\": \"\",\r\n  \"confirmPassword\": \"\"\r\n}",
+									"raw": "{\r\n  \"fullName\": \"Walid Mohamed  \",\r\n  \"email\": \"walid492003@gmail.com\",\r\n  \"phoneNumber\": \"01202555654\",\r\n  \"password\": \"Wa123456\",\r\n  \"confirmPassword\": \"Wa123456\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -54,10 +54,16 @@
 							"name": "Login",
 							"request": {
 								"method": "POST",
-								"header": [],
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJ3YWxpZDQ5MjAwM0BnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjFjNTM0YzA0LWQyZjQtNDk2Yy05NmJmLWMzMzA2MTkyZTAyMSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJXYWxpZE1vaGFtZWQiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJVc2VyIiwianRpIjoiM2MwNzNhMjYtZTI1Yi00NDgyLTg2MzQtODI0OWFiYWIwODMxIiwiZXhwIjoxNzY1MDYyMTE4LCJpc3MiOiJodHRwczovL2xvY2FsaG9zdDo3MTMxIiwiYXVkIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzEzMSJ9.THnTG1DMUtig-Ai_wSLY-WyEGoTzsj3FuMDHlvaLeoY\"",
+										"type": "text"
+									}
+								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"email\": \"walid@gmail.com\",\r\n  \"password\": \"Walid123456\"\r\n}",
+									"raw": "{\r\n  \"email\": \"walid492003@gmail.com\",\r\n  \"password\": \"Wa123456\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
