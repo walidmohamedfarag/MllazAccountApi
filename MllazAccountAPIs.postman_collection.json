@@ -255,6 +255,135 @@
                 }
               },
               "response": []
+            },
+            {
+              "name": "StatusUpdate",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJtb2hhbWVkQXNoQGdtYWlsLmNvbSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiLZhdit2YXYryDYp9i02LHZgSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiZTVjZmFlYjMtZGI2MS00YzhiLWJiNDktYmI3MGExMGQ3Yjc0IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJqdGkiOiJiNGQyNTZjNy05OTZkLTQxNjktOWM3OS01OGVlMTkxM2U2OWEiLCJleHAiOjE3NzI2NDA1OTAsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcxMzEiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo3MTMxIn0.LzoMtQ7G4BQlDbD9eaMNCuWVvp8FH5c6AmA-9HLHM-0",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"Id\": \"2\",\r\n  \"Message\": \"البلاغ اترفض\",\r\n  \"IsApproved\": false\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://mllazaccount.runasp.net/api/User/Reports/StatusUpdate",
+                  "protocol": "http",
+                  "host": [
+                    "mllazaccount",
+                    "runasp",
+                    "net"
+                  ],
+                  "path": [
+                    "api",
+                    "User",
+                    "Reports",
+                    "StatusUpdate"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "ChangeRole",
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJzdXBlcmFkbWluQGdtYWlsLmNvbSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJTdXBlckFkbWluIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOiI5ZWQwYzI2OC1mMzgxLTQ4NzgtOWY1ZS1lNDRlNDRiZDVhY2EiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJTdXBlckFkbWluIiwianRpIjoiOTUwMzgwMGUtYmU0ZS00NTkyLTk0NjUtNTkxMzVmOGRmMjJhIiwiZXhwIjoxNzcyNjQwOTk1LCJpc3MiOiJodHRwczovL2xvY2FsaG9zdDo3MTMxIiwiYXVkIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzEzMSJ9.D4m6tLxov8uogLjxk_NtWohptNbDV2PoviNxm006wBY",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"UserId\": \"2d7e2021-fb31-4ecc-b510-4efe363d9536\",\r\n    \"Role\": \"admin\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://mllazaccount.runasp.net/api/User/Reports/ChangeRole",
+                  "protocol": "http",
+                  "host": [
+                    "mllazaccount",
+                    "runasp",
+                    "net"
+                  ],
+                  "path": [
+                    "api",
+                    "User",
+                    "Reports",
+                    "ChangeRole"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "GetAllUser",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJzdXBlcmFkbWluQGdtYWlsLmNvbSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJTdXBlckFkbWluIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOiI5ZWQwYzI2OC1mMzgxLTQ4NzgtOWY1ZS1lNDRlNDRiZDVhY2EiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJTdXBlckFkbWluIiwianRpIjoiNTY5ZmVjMGQtNGZkNS00ZDZjLWI4MDktYzQyNTEyOTliNTRmIiwiZXhwIjoxNzcyNTg1MDc5LCJpc3MiOiJodHRwczovL2xvY2FsaG9zdDo3MTMxIiwiYXVkIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzEzMSJ9.iQ7FZLevDp0py37e5wSpCpFIcgdgmBx2umeGbazoamg",
+                      "type": "string"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://mllazaccount.runasp.net/api/User/Reports/GetAllUser",
+                  "protocol": "http",
+                  "host": [
+                    "mllazaccount",
+                    "runasp",
+                    "net"
+                  ],
+                  "path": [
+                    "api",
+                    "User",
+                    "Reports",
+                    "GetAllUser"
+                  ]
+                }
+              },
+              "response": []
             }
           ]
         }
